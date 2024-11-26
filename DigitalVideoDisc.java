@@ -24,13 +24,8 @@ public class DigitalVideoDisc {
 	public float getCost() {
 		return cost;
 	}
-<<<<<<< HEAD
-	public void setTitle(String title) {
-		this.title = title;
-=======
 	public int getId() {
 		return id;
->>>>>>> topic/class-member
 	}
 	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
 		super();
@@ -52,11 +47,8 @@ public class DigitalVideoDisc {
 	}
 	public DigitalVideoDisc(String title) {
 		super();
-<<<<<<< HEAD
-=======
 		this.id=nbDigitalVideoDisc;
 		nbDigitalVideoDisc++;
->>>>>>> topic/class-member
 		this.title = title;
 	}
 	
