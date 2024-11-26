@@ -29,7 +29,7 @@ public class DigitalVideoDisc {
 	}
 	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
 		super();
-		id=nbDigitalVideoDisc;
+		this.id=nbDigitalVideoDisc;
 		nbDigitalVideoDisc++;
 		this.title = title;
 		this.category = category;
@@ -39,11 +39,17 @@ public class DigitalVideoDisc {
 	}
 	public DigitalVideoDisc(String title, String category, float cost) {
 		super();
-		id=nbDigitalVideoDisc;
+		this.id=nbDigitalVideoDisc;
 		nbDigitalVideoDisc++;
 		this.title = title;
 		this.category = category;
 		this.cost = cost;
+	}
+	public DigitalVideoDisc(String title) {
+		super();
+		this.id=nbDigitalVideoDisc;
+		nbDigitalVideoDisc++;
+		this.title = title;
 	}
 	
 }
